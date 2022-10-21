@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Lucas Miller</title>
+    </head>
+    <body>
+        <section id="addFade">
+            <section style="backdrop-filter: 60px">
+                <div class="content1">
+                    <h2>LUCAS</h2>
+                    <h2>LUCAS</h2>
+                </div>
+            </section>
+            <section style="backdrop-filter: 60px">
+                <div class="content2">
+                    <h2>Miller</h2>
+                    <h2>Miller</h2>
+                </div>
+            </section>
+            <section class="btns">
+                <button class="btn fourth" onclick="nice()">Projects</button>
+                <button id="openModal" class="btn fourth">Contact me</button>
+            </section>
+        </section>
+
+        <div id="removeHidden" class="hidden">
+            <div class="cards-list">
+                <div class="card 1" onclick="card1()">
+                    <div class="card_image">
+                        <img src="./images/todoapp.png" />
+                    </div>
+                    <div class="card_title title-black">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="card 2" onclick="card2()">
+                    <div class="card_image">
+                        <img src="./images/weatherAPIimg.png" />
+                    </div>
+                    <div class="card_title title-white"></div>
+                </div>
+
+                <div class="card 3" onclick="card3()">
+                    <div class="card_image">
+                        <img src="./images/loginImage.png" />
+                    </div>
+                    <div class="card_title title-white"></div>
+                </div>
+
+                <div class="card 4" onclick="card4()">
+                    <div class="card_image">
+                        <img src="./images/showTrackrImg.png" />
+                    </div>
+                    <div class="card_title title-black"></div>
+                </div>
+            </div>
+        </div>
+
+        <dialog>
+            <h2>Contact Me</h2>
+
+            <p>Phone: (816) 447-5018</p>
+            <p>Email: lucasmiller401@gmail.com</p>
+
+            <button>Close</button>
+        </dialog>
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+            integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+            crossorigin="anonymous"
+        ></script>
+
+        <footer style="position: fixed; bottom: 0">
+            <div class="rounded-social-buttons">
+                <a
+                    class="social-button linkedin"
+                    href="https://www.linkedin.com/in/lucas-miller-420107191/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                    class="social-button youtube"
+                    href="https://www.youtube.com/channel/UCNnMZPRx6SjvrYQUOIcZ7Fw"
+                    target="_blank"
+                    ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                    class="social-button instagram"
+                    href="https://github.com/Lucas171"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                ></a>
+            </div>
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
