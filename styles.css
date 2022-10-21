@@ -25,6 +25,7 @@ section.btns {
     right: 0;
     top: 59%;
     text-align: center;
+    min-width: 465px;
 }
 
 section.btns button {
@@ -406,7 +407,21 @@ dialog p {
 }
 
 @media screen and (max-width: 1023px) {
-    section {
-        display: block;
+    /* .hideOnMobile {
+        display: none;
+    } */
+
+    .content1 h2 {
+        color: #fff;
+        font-size: 100px;
+        position: absolute;
+        transform: translate(-50%, -130%);
+    }
+    .content2 h2 {
+        color: #fff;
+        font-size: 100px;
+
+        position: absolute;
+        transform: translate(-50%, -50%);
     }
 }
