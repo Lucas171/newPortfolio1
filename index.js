@@ -20,7 +20,7 @@ function card3() {
     window.open("https://authentication-app21.herokuapp.com/");
 }
 function card4() {
-    window.open("https://lucas171.github.io/ShowTrackr/");
+    window.open("https://motivate-app.herokuapp.com/");
 }
 
 const $ = document;
